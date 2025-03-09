@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Guía Turística Chignahuapan</title>
+    <link rel="stylesheet" href="../../CSS/contacto.css">
+</head>
+
+<body>
+    <nav>
+        <a href="../../index.html">Inicio</a>
+        <a href="lugares.html">Lugares de Interés</a>
+        <a href="mapa.html">Mapa</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="../BlogComentarios/blog.html">Blog</a>
+        <a href="../../../index.html">Selección de Practicas</a>
+    </nav>
+
+    <section>
+        <h2>Datos de Contacto</h2>
+        <dl>
+            <dt>Teléfono:</dt>
+            <dd>+123 456 7890</dd>
+            <dt>Email:</dt>
+            <dd>contacto@guiaturistica.com</dd>
+            <dt>Dirección:</dt>
+            <dd>Calle Principal #123, Chignahuapan, Puebla</dd>
+        </dl>
+    </section>
+
+    <header>
+        <h1>Comentarios del Blog</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Deja tu Comentario</h2>
+            <form action="procesar_comentario.php" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="comentario">Comentario:</label>
+                <textarea id="comentario" name="comentario" rows="5" required></textarea>
+
+                <button type="submit">Enviar Comentario</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Comentarios Recientes</h2>
+            <div class="comentario">
+                <p><strong>Juan Pérez</strong> <em>01/03/2025</em></p>
+                <p>Excelente guía turística, muy informativa y práctica. Me encantó la sección de
+                    lugares de interés.</p>
+            </div>
+            <div class="comentario">
+                <p><strong>María García</strong> <em>28/02/2025</em></p>
+                <p>Muy buen contenido, la información es muy útil para planificar mi próxima
+                    visita a Chignahuapan.</p>
+            </div>
+        </section>
+    </main>
+
+    <aside>
+        <h3>Información Adicional</h3>
+        <p>Para más detalles sobre la guía turística, visita nuestra página de <a href="contacto.html">Contacto</a> o
+            suscríbete al boletín.</p>
+    </aside>
+
+    <footer>
+        <p>&copy; 2025 Guía Turística de Chignahuapan. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>

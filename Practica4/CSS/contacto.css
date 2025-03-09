@@ -1,0 +1,133 @@
+/* Estilo general */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f39c12; /* Fondo naranja suave */
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background: url('../media/chignahuapan.jpg') no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+nav {
+    background-color: #ff5733;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #c4411a;
+}
+
+h1, h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #e74c3c;
+}
+
+dt {
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+dd {
+    font-weight: 400;
+    color: #7f8c8d;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #2c3e50;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 1em;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #ff5733;
+    outline: none;
+    background-color: #fff;
+}
+
+form button {
+    background-color: #ff5733;
+    color: white;
+    padding: 12px 20px;
+    font-size: 1.2em;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #c4411a;
+}
+
+.comentario p {
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+
+.comentario strong {
+    color: #2c3e50;
+}
+
+.comentario em {
+    color: #7f8c8d;
+    font-style: italic;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 1em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #ff5733;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #c4411a;
+}
